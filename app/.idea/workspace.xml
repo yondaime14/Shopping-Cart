@@ -5,6 +5,9 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6511b838-f271-41c8-b68d-6fa5cc1d85d0" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,37 +32,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ShoppingCartModule.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Dependecies/ShoppingCartModule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppModule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Dependecies/AppModule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AppComponent.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Dependecies/AppComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShoppingCartApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Activities/ShoppingCartApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#490#491#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductPresenter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Presenter/ProductPresenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="33" column="49" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#714#715#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#1049#1050#0" expanded="true" />
+                <element signature="e#1090#1091#0" expanded="true" />
+                <element signature="e#1150#1151#0" expanded="true" />
+                <element signature="e#1196#1197#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1796,9 +1805,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/ShoppingCart.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Activities/ShoppingCart.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Presenter/ProductPresenter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Activities/ShoppingCartApplication.java" />
         <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/../build.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
@@ -1807,6 +1813,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Dependecies/AppModule.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Dependecies/ShoppingCartModule.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Dependecies/AppComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Activities/ShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Presenter/ProductPresenter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Activities/ShoppingCartApplication.java" />
       </list>
     </option>
   </component>
@@ -1885,28 +1894,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="shoppingcart" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shopping-Cart" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingcart" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dependecies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2271,16 +2258,16 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.49676898" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.503231" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.49676898" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.49676898" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -2309,30 +2296,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Activities/ShoppingCart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Presenter/ProductPresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Activities/ShoppingCartApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -2405,6 +2368,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Activities/ShoppingCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="81" column="8" lean-forward="true" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1358#1379#0" expanded="true" />
+            <element signature="e#2591#2592#0" expanded="true" />
+            <element signature="e#2626#2627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Dependecies/ShoppingCartModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Dependecies/AppModule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -2415,22 +2401,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Dependecies/AppComponent.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Presenter/ProductPresenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        <state relative-caret-position="268">
+          <caret line="33" column="49" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1150#1151#0" expanded="true" />
+            <element signature="e#1196#1197#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Dependecies/ShoppingCartModule.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Dependecies/AppComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Activities/ShoppingCartApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
           </folding>
         </state>
       </provider>

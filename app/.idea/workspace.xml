@@ -29,17 +29,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AppModule.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ShoppingCartModule.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Dependecies/ShoppingCartModule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppModule.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Dependecies/AppModule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="330">
               <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#594#595#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppComponent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Dependecies/AppComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1778,8 +1798,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/ShoppingCart.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Activities/ShoppingCart.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Presenter/ProductPresenter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Dependecies/AppComponent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Dependecies/ShoppingCartModule.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Activities/ShoppingCartApplication.java" />
         <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/../build.gradle" />
@@ -1787,6 +1805,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Model/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Model/LineItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Dependecies/AppModule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Dependecies/ShoppingCartModule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Dependecies/AppComponent.java" />
       </list>
     </option>
   </component>
@@ -2305,22 +2325,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Dependecies/AppComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Dependecies/ShoppingCartModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Activities/ShoppingCartApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -2403,14 +2407,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Dependecies/AppModule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="330">
           <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Dependecies/AppComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/carllewis14/shoppingcart/Dependecies/ShoppingCartModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
